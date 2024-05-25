@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #090F13;
+}
+#MainContent{
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: #ffff;
+    height: 400px;
+    width: 300px;
+    padding: 30px;
+    overflow: hidden;
+    transition: 1s;
+}
+h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+form input{
+    width: 100%;
+    font-size: 15px;
+    padding: 18px 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    border-bottom: 1px solid grey;
+ 
+}
+#second{
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 130px;
+}
+#third{
+    margin-top: 100px;
+}
+
+/* button style------------------------------  */
+.btn{
+    margin: 25px 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    background-color: #090F13;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+li {
+    position: relative;
+    display: inline-block;
+}
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    background-color: #f2f2f2;
+}
+li a:hover {
+    background-color: #ddd;
+}
+li ul {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+li:hover ul {
+    display: block;
+}
+li ul li {
+    display: block;
+}
+
+
+
+/* capta css -------------------------- */
+#captchaBackground {
+    height: 220px;
+    width: 250px;
+    background-color: #2d3748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#captchaHeading {
+    color: white;
+}
+
+#captcha {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: auto;
+    display: block;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submitButton {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#refreshButton {
+    background-color: #08e5ff;
+    border: 0px;
+    font-weight: bold;
+}
+
+#textBox {
+    height: 25px;
+}
+
+.incorrectCaptcha {
+    color: #FF0000;
+}
+
+.correctCaptcha {
+    color: #7FFF00;
+}
+
